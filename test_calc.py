@@ -8,7 +8,7 @@ class TestCalc(unittest.TestCase):
 		self.assertEqual(result,15)
 	def test_sub(self):
 		result=calculator.sub(10,5)
-		self.assertEqual(result,15)
+		self.assertEqual(result,5)
 	def test_mul(self):
 		result=calculator.mul(10,5)
 		self.assertEqual(result,50)
